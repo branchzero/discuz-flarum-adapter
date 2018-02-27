@@ -1,0 +1,28 @@
+{
+    "name": "branchzero/discuz-flarum-adapter",
+    "type": "library",
+    "version": "0.1.0",
+    "description": "Used To Quickly Generate Backend Skeleton based on Laravel/Lumen",
+    "homepage": "https://br4nch.visualstudio.com/discuz_flarum_adapter",
+    "keywords": [
+        "flarum",
+        "discuz"
+    ],
+    "authors": [
+        {
+            "name": "BranchZero Sun",
+            "email": "branchzero@elemenx.com",
+            "homepage": "https://branchzero.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Branchzero\\DiscuzFlarumAdapter\\": "src"
+        }
+    },
+    "license": "MIT"
+}
